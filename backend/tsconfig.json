@@ -4,5 +4,5 @@
     "outDir": "dist",
     "sourceMap": true,
   },
-  "include": ["src/**/*.ts", "src/plugins/env.mts"]
+  "include": ["src/**/*.ts", "src/plugins/env.mts", "src/app.ts"]
 }

@@ -1,6 +1,6 @@
 
 import fastifyEnv from "@fastify/env";
-import { FastifyInstance } from "fastify";
+import type  { FastifyInstance } from "fastify";
 import fp from "fastify-plugin"
 
 declare module 'fastify' {
@@ -8,7 +8,8 @@ declare module 'fastify' {
     config: {
       PORT: number;
       NEON_CUSTOM_STRING: string;
-    };
+    },
+    
   }
 }
 
