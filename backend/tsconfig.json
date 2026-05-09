@@ -1,8 +1,11 @@
 {
   "extends": "fastify-tsconfig",
   "compilerOptions": {
+    "rootDir" : "./src",
     "outDir": "dist",
     "sourceMap": true,
+    "moduleResolution": "nodenext",
+    "types": ["node"]
   },
-  "include": ["src/**/*.ts", "src/plugins/env.mts", "src/app.ts"]
+  "include": ["src/**/*.ts"]
 }
